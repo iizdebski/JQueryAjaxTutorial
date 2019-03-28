@@ -1,0 +1,17 @@
+.link{
+    background-color: red;
+    font-size: 10px;
+    color: white;
+    text-decoration:none;
+}
+
+.font-size{
+    font-size: 40px;
+}
+.external{
+    background-color: red;
+}
+
+.org{
+    background-color: green;
+}

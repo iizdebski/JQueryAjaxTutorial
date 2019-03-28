@@ -1,0 +1,12 @@
+.even{
+    background-color:red;
+    font-size: 40px;
+    color: white;
+    text-decoration: none;    
+}
+.odd{
+    background-color:blue;
+    font-size: 40px;
+    color: white;
+    text-decoration: none;    
+}

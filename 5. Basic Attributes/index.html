@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Basic Attributes</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <a href="#">I am dummy link</a><br>
+    <a href="index.html">I am home link</a><br>
+    <a href="http://www.google.com">I am .com link</a><br>
+    <a href="http://www.google.org">I am .org link</a><br>
+
+        <script src="https://code.jquery.com/jquery-3.3.1.js" 
+        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" 
+        crossorigin="anonymous"></script>
+
+        <script>
+            $(document).ready(function(){
+                $('a[href="#"]').addClass('link')
+                $('a[href!="#"]').addClass('font-size')
+                $('a[href^=http]').addClass('external');
+                $('a[href$=org]').addClass('org');
+
+            });
+            </script>
+    
+</body>
+</html>

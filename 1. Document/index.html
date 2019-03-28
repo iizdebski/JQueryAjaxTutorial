@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Jquery</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+    <div id="main"></div>
+    <div class="special">Hello World</div>
+    <span></span>
+    <p></p>
+    <a href="#"></a>
+    <a href="#"></a>
+    <a href="#"></a>
+    <a href="#"></a>
+    <a href="#"></a>
+
+    <div>Click me to see if jquery has loaded</div>  
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+</script>
+
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script>
+       /* $(document).ready(function(){
+            $('div').click(function(){
+                alert("jquery has loaded")
+            })
+        }); */
+        /*$(document).ready(function(){
+            alert("hello world")
+        }); */
+       /*$(document).ready(function(){
+            $(selector).action            
+        }); */
+         
+         $(document).ready(function(){
+             
+             // $('div, span, p, a').html('Hello Coding Addict')
+             //let result = $('div, span, p, a').length;
+             let result = $('div, span, p, a');
+
+             console.log(result);
+
+         });
+        </script>    
+</body>
+</html>

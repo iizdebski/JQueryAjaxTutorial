@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Jquery</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+
+    <div id="main"></div>
+    <div class="special">Hello World</div>   
+    <span></span>
+    <p></p>
+    <a href="#"></a>
+    <a href="#"></a>
+    <a href="#"></a>
+    <a href="#"></a>
+    <a href="#"></a>
+
+    <div class="parent">
+        <span>Hey I am span</span>
+        </div>
+        <span>Hey I am span</span>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.js" 
+    integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" 
+    crossorigin="anonymous"></script>
+
+    <script>
+    $(document).ready(function() {
+
+        //$('div, span, p, a').html('Hello Codding Addict')
+        //let result = $('div, span, p, a').length;
+       /* let result = $('div, span, p, a');
+        console.log(result);*/
+
+        $('#main').html('This is div with main ID')
+        $('.special').hide()
+        $('.parent span').css('color', 'red');
+
+    });
+    </script>
+    
+</body>
+</html>
